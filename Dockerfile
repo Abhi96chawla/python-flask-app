@@ -7,4 +7,4 @@ COPY . .
 RUN pip install -r requirements.txt
 EXPOSE 5000
 
-CMD["python", "main."]
+CMD["python3", "main.py"]
